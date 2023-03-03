@@ -1,5 +1,6 @@
 (function($) {
   $.fn.mauGallery = function(options) {
+    var test = "hello";
     var options = $.extend($.fn.mauGallery.defaults, options);
     var tagsCollection = [];
     return this.each(function() {
