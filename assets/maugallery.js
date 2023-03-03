@@ -1,6 +1,5 @@
 (function($) {
   $.fn.mauGallery = function(options) {
-    var test = "hello";
     var options = $.extend($.fn.mauGallery.defaults, options);
     var tagsCollection = [];
     return this.each(function() {
@@ -155,7 +154,7 @@
         }
       });
       next =
-        imagesCollection[index] ||
+        imagesCollection[index - 1] ||
         imagesCollection[imagesCollection.length - 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
