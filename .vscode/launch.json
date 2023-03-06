@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Firefox against localhost",
+            "name": "Launch Firefox against localhost - Ubuntu",
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
             "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "tmpDir": "/home/axel/tmp",
         },
         
 
@@ -20,6 +20,15 @@
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
-        }
+        },
+
+        {
+            "name": "Launch Firefox against localhost -  Manjaro",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}",
+        },
     ]
 }
