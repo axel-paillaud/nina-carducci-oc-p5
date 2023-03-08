@@ -35,15 +35,21 @@
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		</div>
 		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="./assets/images/slider/original/ryolji-iwata-unsplash-1920.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/original/nicholas-green-unsplash-1920.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item">
-				<img src="./assets/images/slider/original/edward-cisneros-unsplash-1920.jpg" class="d-block w-100" alt="...">
-			</div>
+			<picture class="carousel-item active">
+				<source srcset="./assets/images/slider/ryolji-iwata-unsplash-1920.avif" type="image/avif" media="(min-width: 768px)">
+				<source srcset="./assets/images/slider/ryolji-iwata-unsplash-768.avif" type="image/avif" media="(max-width: 768px)">
+				<img src="./assets/images/slider/original/ryolji-iwata-unsplash-1920.jpg" class="d-block w-100" alt="Personne marchant sur passage pieton - Nina Carducci">
+			</picture>
+			<picture class="carousel-item">
+				<source srcset="./assets/images/slider/nicholas-green-unsplash-1920.avif" type="image/avif" media="(min-width: 768px)">
+				<source srcset="./assets/images/slider/nicholas-green-unsplash-768.avif" type="image/avif" media="(max-width: 768px)">
+				<img src="./assets/images/slider/original/nicholas-green-unsplash-1920.jpg" class="d-block w-100" alt="Foule en festival - Nina Carducci">
+			</picture>
+			<picture class="carousel-item">
+				<source srcset="./assets/images/slider/edward-cisneros-unsplash-1920.avif" type="image/avif" media="(min-width: 768px)">
+				<source srcset="./assets/images/slider/edward-cisneros-unsplash-768.avif" type="image/avif" media="(max-width: 768px)">
+				<img src="./assets/images/slider/original/edward-cisneros-unsplash-1920.jpg" class="d-block w-100" alt="Mariés s'embrassant sous les applaudissements - Nina Carducci">
+			</picture>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
