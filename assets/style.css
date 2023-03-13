@@ -91,7 +91,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+		min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -106,11 +106,11 @@ body {
 	border-radius:0 ;
 }
 
-/* .active-tag {
+.active-tag {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0;
-} */
+}
 
 .nav-pills .nav-link {
 	color: #000
