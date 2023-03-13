@@ -102,8 +102,13 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #807733;
 	border-radius:0 ;
+	font-weight: bold;
+}
+
+.nav-item:hover {
+	cursor: pointer;
 }
 
 .active-tag {
