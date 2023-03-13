@@ -1,0 +1,1 @@
+Convertir nina-640.png en jpg, puis compresser avec tinypng
