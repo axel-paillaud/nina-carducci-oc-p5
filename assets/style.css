@@ -82,12 +82,12 @@ body {
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
+	font-size: 1rem;
 	font-style: italic;
 	width: 60%;
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
 }
 
 #gallery {
@@ -361,3 +361,20 @@ input[type="submit"] {
 	}
 }
 
+.text-xl {
+	font-size: 2.5rem;
+}
+
+.text-sm {
+	font-size: 0.875rem;
+}
+
+.text-xl {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.text-2xl {
+	font-size: 1.75rem;
+	line-height: 2rem;
+}
