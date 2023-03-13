@@ -6,6 +6,11 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
