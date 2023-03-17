@@ -14,8 +14,8 @@
 	<meta name="description" content="Photographe Nina Carducci - Portrait, Concert, Mariage, Portrait">
 </head>
 <body>
-<header class="top-header" itemscope itemtype="http://schema.org/Photograph">
-	<h1 itemprop="name" class="name" itemprop="name">Nina Carducci</h1>
+<header class="top-header">
+	<h1>Nina Carducci</h1>
 	<nav class="nav">
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -76,14 +76,16 @@
 			</button>
 		</div>
 	</div>
-	<div id="about">
+	<div id="about" itemscope itemtype="https://schema.org/Person">
 		<picture class="picture left">
 			<source srcset="./assets/images/nina.avif" type="image/avif">
-			<img src="./assets/images/nina.jpg" alt="Photo de Nina Carducci">
+			<img itemprop="image" src="./assets/images/nina.jpg" alt="Photo de Nina Carducci">
 		</picture>
 		<div id="about-me">
+			<meta itemprop="name" content="Nina Carducci">
+			<meta itemprop="jobTitle" content="Photographe professionnel">
 			<h2 class="about-me__title">A propos de moi</h2>
-			<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
+			<p class="about-me__introduction" itemprop="description">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
 			<p class="text-sm">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
