@@ -35,20 +35,35 @@
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 			</div>
 			<div class="carousel-inner">
-				<picture class="carousel-item active">
+				<picture class="carousel-item active" itemscope itemtype="https://schema.org/ImageObject">
 					<source srcset="./assets/images/slider/ryolji-iwata-unsplash-1920.avif" type="image/avif" media="(min-width: 768px)">
 					<source srcset="./assets/images/slider/ryolji-iwata-unsplash-768.avif" type="image/avif" media="(max-width: 768px)">
-					<img src="./assets/images/slider/original/ryolji-iwata-unsplash-1920.jpg" class="d-block w-100" alt="Personne marchant sur passage pieton - Nina Carducci">
+					<img itemprop="contentUrl" src="./assets/images/slider/original/ryolji-iwata-unsplash-1920.jpg" class="d-block w-100" alt="Personne marchant sur passage pieton - Nina Carducci">
+					<span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+						<meta itemprop="name" content="Nina Carducci">
+					</span>
+					<meta itemprop="copyrightNotice" content="Nina Carducci">
+					<meta itemprop="creditText" content="Nina Carducci">
 				</picture>
-				<picture class="carousel-item">
+				<picture class="carousel-item" itemscope itemtype="https://schema.org/ImageObject">
 					<source srcset="./assets/images/slider/nicholas-green-unsplash-1920.avif" type="image/avif" media="(min-width: 768px)">
 					<source srcset="./assets/images/slider/nicholas-green-unsplash-768.avif" type="image/avif" media="(max-width: 768px)">
-					<img src="./assets/images/slider/original/nicholas-green-unsplash-1920.jpg" class="d-block w-100" alt="Foule en festival - Nina Carducci">
+					<img itemprop="contentUrl" src="./assets/images/slider/original/nicholas-green-unsplash-1920.jpg" class="d-block w-100" alt="Foule en festival - Nina Carducci">
+					<span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+						<meta itemprop="name" content="Nina Carducci">
+					</span>
+					<meta itemprop="copyrightNotice" content="Nina Carducci">
+					<meta itemprop="creditText" content="Nina Carducci">
 				</picture>
-				<picture class="carousel-item">
+				<picture class="carousel-item" itemscope itemtype="https://schema.org/ImageObject">
 					<source srcset="./assets/images/slider/edward-cisneros-unsplash-1920.avif" type="image/avif" media="(min-width: 768px)">
 					<source srcset="./assets/images/slider/edward-cisneros-unsplash-768.avif" type="image/avif" media="(max-width: 768px)">
-					<img src="./assets/images/slider/original/edward-cisneros-unsplash-1920.jpg" class="d-block w-100" alt="Mariés s'embrassant sous les applaudissements - Nina Carducci">
+					<img itemprop="contentUrl" src="./assets/images/slider/original/edward-cisneros-unsplash-1920.jpg" class="d-block w-100" alt="Mariés s'embrassant sous les applaudissements - Nina Carducci">
+					<span itemprop="creator" itemtype="https://schema.org/Person" itemscope>
+						<meta itemprop="name" content="Nina Carducci">
+					</span>
+					<meta itemprop="copyrightNotice" content="Nina Carducci">
+					<meta itemprop="creditText" content="Nina Carducci">
 				</picture>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -73,7 +88,7 @@
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
 	</div>
-	<div id="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+	<div id="gallery">
 		<h3 class="title" itemprop="name">Portfolio</h3>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
